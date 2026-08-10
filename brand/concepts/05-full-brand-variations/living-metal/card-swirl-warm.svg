@@ -2,24 +2,43 @@
   <title id="title">Living Metal red-team card contours</title>
   <desc id="desc">A single-direction biomorphic contour with prominent photographic metal and crimson, bridged by Warm Ember and one gunmetal band.</desc>
   <defs>
-    <linearGradient id="realGallium" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#24272A"/>
-      <stop offset=".09" stop-color="#FDFEFE"/>
-      <stop offset=".2" stop-color="#72787C"/>
-      <stop offset=".33" stop-color="#E7EAEB"/>
-      <stop offset=".48" stop-color="#34383B"/>
-      <stop offset=".63" stop-color="#FFFFFF"/>
-      <stop offset=".77" stop-color="#878D91"/>
-      <stop offset=".9" stop-color="#D9DDDF"/>
-      <stop offset="1" stop-color="#292C2F"/>
+    <clipPath id="metalClip4">
+      <path d="M360 112c-18 1-29 12-23 25 9 20-8 32-28 24-25-9-39 3-30 21 9 19-7 31-32 32l-24 26h137z"/>
+    </clipPath>
+    <linearGradient id="shadeFill4" x1="30%" y1="0%" x2="70%" y2="100%">
+      <stop offset="0%" stop-color="#4A4A4C"/>
+      <stop offset="15%" stop-color="#5C5C5E"/>
+      <stop offset="30%" stop-color="#68686A"/>
+      <stop offset="45%" stop-color="#5A5A5C"/>
+      <stop offset="60%" stop-color="#797A7C"/>
+      <stop offset="72%" stop-color="#9C9DA0"/>
+      <stop offset="83%" stop-color="#BFC0C3"/>
+      <stop offset="92%" stop-color="#D6D7DA"/>
+      <stop offset="100%" stop-color="#E4E5E8"/>
     </linearGradient>
+    <linearGradient id="rimStroke4" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" stop-color="#DADBDE" stop-opacity="0"/>
+      <stop offset="55%" stop-color="#DADBDE" stop-opacity="0"/>
+      <stop offset="78%" stop-color="#E8E9EC" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#F0F1F4" stop-opacity="0.75"/>
+    </linearGradient>
+    <radialGradient id="hot4" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#F2F3F5" stop-opacity="0.9"/>
+      <stop offset="30%" stop-color="#E4E5E8" stop-opacity="0.7"/>
+      <stop offset="65%" stop-color="#E4E5E8" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#E4E5E8" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softBlur4"><feGaussianBlur stdDeviation="2.5"/></filter>
     <filter id="depth" x="-20%" y="-20%" width="150%" height="150%">
       <feDropShadow dx="-3" dy="5" stdDeviation="4" flood-color="#17191B" flood-opacity=".32"/>
     </filter>
   </defs>
-  <path d="M360 4c-52-10-89 12-91 49-3 45-39 58-81 48-51-12-85 12-79 53 7 45-38 68-109 51v35h360z" fill="url(#realGallium)" filter="url(#depth)"/>
-  <path d="M360 42c-37-6-62 12-61 39 2 36-28 49-62 40-42-11-69 8-62 39 8 36-25 55-79 47l-34 33h298z" fill="#C8102E" filter="url(#depth)"/>
-  <path d="M360 78c-27-2-43 12-39 31 6 28-18 42-45 33-33-11-54 4-45 28 10 29-14 45-52 42l-28 28h209z" fill="#E36F3D" filter="url(#depth)"/>
-  <path d="M360 112c-18 1-29 12-23 25 9 20-8 32-28 24-25-9-39 3-30 21 9 19-7 31-32 32l-24 26h137z" fill="#232527" filter="url(#depth)"/>
-  <path d="M360 154c-10 2-15 9-10 16 8 11-1 19-13 15-15-5-23 2-16 13 6 11-1 19-14 23l-16 19h69z" fill="#232527"/>
+  <path d="M360 4c-52-10-89 12-91 49-3 45-39 58-81 48-51-12-85 12-79 53 7 45-38 68-109 51v35h360z" fill="#232527" filter="url(#depth)"/>
+  <path d="M360 42c-37-6-62 12-61 39 2 36-28 49-62 40-42-11-69 8-62 39 8 36-25 55-79 47l-34 33h298z" fill="#E36F3D" filter="url(#depth)"/>
+  <path d="M360 78c-27-2-43 12-39 31 6 28-18 42-45 33-33-11-54 4-45 28 10 29-14 45-52 42l-28 28h209z" fill="#C8102E" filter="url(#depth)"/>
+  <g clip-path="url(#metalClip4)">
+    <path d="M360 112c-18 1-29 12-23 25 9 20-8 32-28 24-25-9-39 3-30 21 9 19-7 31-32 32l-24 26h137z" fill="url(#shadeFill4)"/>
+    <path d="M360 112c-18 1-29 12-23 25 9 20-8 32-28 24-25-9-39 3-30 21 9 19-7 31-32 32l-24 26h137z" fill="none" stroke="url(#rimStroke4)" stroke-width="3" filter="url(#softBlur4)"/>
+    <ellipse cx="252" cy="209" rx="16" ry="7" fill="url(#hot4)"/>
+  </g>
 </svg>

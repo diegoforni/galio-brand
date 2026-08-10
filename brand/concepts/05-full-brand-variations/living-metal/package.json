@@ -1,0 +1,12 @@
+{
+  "name": "galio-living-metal-guide",
+  "version": "0.8.0",
+  "description": "Living Metal Red Team + Ember brand guide with auto-generated PDF",
+  "scripts": {
+    "generate-pdf": "node generate-pdf.js",
+    "watch": "node watch-pdf.js"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0"
+  }
+}
