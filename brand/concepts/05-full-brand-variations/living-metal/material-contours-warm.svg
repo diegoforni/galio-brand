@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">Living Metal Red Team and Warm Ember contour material</title>
+  <desc id="desc">A restrained five-layer biomorphic system with real gallium as the outer surface and core, framing one gunmetal band, Warm Ember, and prominent Red Team Crimson.</desc>
+  <defs>
+    <linearGradient id="realGallium" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#202326"/>
+      <stop offset=".08" stop-color="#FDFEFE"/>
+      <stop offset=".18" stop-color="#6D7377"/>
+      <stop offset=".31" stop-color="#E9ECED"/>
+      <stop offset=".44" stop-color="#34383B"/>
+      <stop offset=".58" stop-color="#FFFFFF"/>
+      <stop offset=".7" stop-color="#858B8F"/>
+      <stop offset=".84" stop-color="#E1E4E5"/>
+      <stop offset="1" stop-color="#292D30"/>
+    </linearGradient>
+    <linearGradient id="gunmetal" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#17191B"/>
+      <stop offset=".48" stop-color="#323639"/>
+      <stop offset="1" stop-color="#202326"/>
+    </linearGradient>
+    <linearGradient id="warmEmber" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F07A43"/>
+      <stop offset=".55" stop-color="#E36F3D"/>
+      <stop offset="1" stop-color="#B9532B"/>
+    </linearGradient>
+    <linearGradient id="redTeam" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#E31337"/>
+      <stop offset=".52" stop-color="#C8102E"/>
+      <stop offset="1" stop-color="#781421"/>
+    </linearGradient>
+    <filter id="depth" x="-20%" y="-20%" width="150%" height="150%">
+      <feDropShadow dx="-8" dy="13" stdDeviation="15" flood-color="#17191B" flood-opacity=".3"/>
+    </filter>
+  </defs>
+  <rect width="1440" height="900" fill="#F5F4F1"/>
+  <path d="M1440 0H720c-78 76-21 157-115 226-104 77-217 20-269 127-55 112 65 167-27 260-80 81-219 50-309 133v154h1440z" fill="url(#realGallium)" filter="url(#depth)"/>
+  <path d="M1440 0H930c-69 73-19 139-96 206-83 72-181 27-225 116-46 94 53 137-12 219-64 80-174 56-247 126-68 65-80 145-79 233h1169z" fill="url(#gunmetal)" filter="url(#depth)"/>
+  <path d="M1440 70c-145-22-270 24-318 126-52 111 51 171-31 264-72 82-191 49-268 130-91 96-75 212-51 310h668z" fill="url(#warmEmber)" filter="url(#depth)"/>
+  <path d="M1440 162c-118-16-219 27-254 115-40 93 49 142-16 222-57 70-156 46-217 112-73 79-56 183-35 289h522z" fill="url(#redTeam)" filter="url(#depth)"/>
+  <path d="M1440 285c-84-8-150 29-171 98-25 80 44 119-3 185-41 58-115 43-154 100-46 66-28 150-7 232h335z" fill="url(#realGallium)" filter="url(#depth)"/>
+</svg>

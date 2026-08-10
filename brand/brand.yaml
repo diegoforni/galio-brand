@@ -1,0 +1,28 @@
+schema_version: 1
+slug: galio
+name: Galio
+one_liner: A pentesting agency combining AI-driven testing with human expertise, with free engagements for selected nonprofit organizations.
+tagline: "Test continuously. Ship calmly."
+archetype: "Rebel-Sage"
+status: draft
+stage: "pre-launch"
+industry: "Offensive cybersecurity / continuous penetration testing"
+languages: [es, en]
+links:
+  domain: ""
+  repo: ""
+created: 2026-08-10
+updated: 2026-08-10
+version: 1
+artifacts:
+  context: true
+  naming: false
+  strategy: false
+  architecture: false
+  identity: true
+  voice: false
+  messaging: false
+  positioning: false
+  story: false
+  guidelines: true
+  audit: false
